@@ -2,7 +2,7 @@ import json
 import google.generativeai as genai
 import discord
 
-GEN_KEY = "AIzaSyB3isXMHGNwcML90zttuNzrujcruhQ_ZLQ"
+GEN_KEY = "YOUR-GEMINI-API-KEY"
 genai.configure(api_key=GEN_KEY)
 
 # Set up the model
@@ -34,9 +34,9 @@ safety_settings = [
 model = genai.GenerativeModel(model_name="gemini-1.5-pro-latest", generation_config=generation_config)
 
 # discord set up
-APP_ID = "1219650758312595616"
-PUBLIC_KEY = "e6cb5f876023954b794ed2bb47979ac25b567d138a931655b1a6e25432f7fd84"
-TOKEN = "MTIxOTY1MDc1ODMxMjU5NTYxNg.GLqFFe.CjipbuMNLmznyPV3k4U70q-bwWC_G6qIuvUsRs"
+APP_ID = "YOUR-ID"
+PUBLIC_KEY = "YOUR_PUBLIC_KEY"
+TOKEN = "YOUR_DISCORD_TOKEN"
 
 intents = discord.Intents.default()
 intents.message_content = True
