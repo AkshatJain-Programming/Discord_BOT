@@ -1,0 +1,1 @@
+[{"role": "user", "parts": ["<@1219650758312595616> give answers in less than 200 words only in any condition"]}, {"role": "model", "parts": ["No problem! Keeping it concise. \ud83d\udc4d \n"]}]
